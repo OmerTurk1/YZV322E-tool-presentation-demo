@@ -1,0 +1,18 @@
+select * from my_table;
+
+SELECT * FROM my_table LIMIT 10;
+
+SELECT "Attendance", AVG("Exam_Score") as ortalama_puan
+FROM my_table
+GROUP BY "Attendance"
+ORDER BY "Attendance" DESC;
+
+SELECT "Hours_Studied", "Sleep_Hours", "Exam_Score"
+FROM my_table
+WHERE "Exam_Score" > 80
+ORDER BY "Hours_Studied" DESC;
+
+SELECT "School_Type", "Motivation_Level", AVG("Exam_Score") as ortalama_skor
+FROM my_table
+GROUP BY "School_Type", "Motivation_Level"
+ORDER BY "School_Type", ortalama_skor DESC;
