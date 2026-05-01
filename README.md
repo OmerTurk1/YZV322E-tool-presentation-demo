@@ -120,3 +120,8 @@ DB_PASS=password123
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=tool_presentation_db
+```
+
+## AI Usage:
+
+I have got help from Gemini and Claude for assitance on both slide preparation and demo build. Althought AI utilization is facilitated my workload, The work is mostly primarily done by my hardwork.
