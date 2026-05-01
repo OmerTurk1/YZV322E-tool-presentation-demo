@@ -64,23 +64,28 @@ Follow these steps to deploy the environment and interact with the services:
     ```bash
     docker compose up -d
     ```
+    
+2.  **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-2.  **Populate the database:**
+3.  **Populate the database:**
     Execute the Python script to push initial data to the postgre:
     ```bash
     python scripts/push_data.py
     ```
 
-3.  **Monitor running services:**
+4.  **Monitor running services:**
     ```bash
     docker ps
     ```
-4.  **Navigate to http://localhost:8080/**
+5.  **Navigate to http://localhost:8080/**
     *   This will send to pgAdmin login page. You must use:
     *   * email: admin@itu.edu.tr
         * password: admin
 
-5.  **Add new server:**
+6.  **Add new server:**
     *   Name: `Student_Database`
     *   Host Name: `db`
     *   Port: `5432`
@@ -89,7 +94,7 @@ Follow these steps to deploy the environment and interact with the services:
     *   Password: `password123`
     *   Save password: **True**
 
-6.  **Perform Queries:**
+7.  **Perform Queries:**
     *   Navigate to my_table table and right click, tehnopen "Query Tool".
     *   You can perform some SQL Queries in the pgAdmin query tool. For sample queries, view **example_queries.txt** file.
 
