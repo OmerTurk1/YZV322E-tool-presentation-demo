@@ -2,7 +2,7 @@
 
 ---
 
-## 🛠 What is Docker Compose?
+## What is Docker Compose?
 
 **Docker Compose** is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s services. Then, with a single command, you create and start all the services from your configuration.
 
@@ -75,6 +75,8 @@ Follow these steps to deploy the environment and interact with the services:
     ```bash
     docker ps
     ```
+5.  **Perform Queries:**
+    *   You can perform some SQL Queries in the pgAdmin query tool. For sample queries, view **example_queries.txt** file.
 
 4.  **Manage the lifecycle:**
     *   **Restart services:** `docker compose restart`
