@@ -75,10 +75,25 @@ Follow these steps to deploy the environment and interact with the services:
     ```bash
     docker ps
     ```
-5.  **Perform Queries:**
+4.  **Navigate to http://localhost:8080/**
+    *   This will send to pgAdmin login page. You must use:
+    *   * email: admin@itu.edu.tr
+        * password: admin
+
+5.  **Add new server:**
+    *   Name: `Student_Database`
+    *   Host Name: `db`
+    *   Port: `5432`
+    *   Maintenance Database: `tool_presentation_db`
+    *   Username: `admin`
+    *   Password: `password123`
+    *   Save password: **True**
+
+6.  **Perform Queries:**
+    *   Navigate to my_table table and right click, tehnopen "Query Tool".
     *   You can perform some SQL Queries in the pgAdmin query tool. For sample queries, view **example_queries.txt** file.
 
-4.  **Manage the lifecycle:**
+8.  **Manage the lifecycle:**
     *   **Restart services:** `docker compose restart`
     *   **Stop services:** `docker compose stop`
     *   **Tear down and remove all containers and volumes:** `docker compose down -v`
