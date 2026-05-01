@@ -46,8 +46,8 @@ Before running the demo, ensure your system meets the following requirements:
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/OmerTurk1/YZV322E-tool-presentation-demo
+    cd YZV322E-tool-presentation-demo
     ```
 2.  **Verify Docker Compose installation:**
     ```bash
