@@ -107,7 +107,7 @@ Follow these steps to deploy the environment and interact with the services:
 
 ## Expected Output
 
-After running `docker compose up -d`, you should see all containers listed as "Running" or "Healthy." For visual verification, please see the `/screenshots` folder.
+After running `docker compose up -d`, you should see all containers listed as "Running" or "Healthy." For all the visual verifications, please see the `/screenshots` folder.
 
 ---
 
